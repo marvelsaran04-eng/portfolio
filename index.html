@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saran | Software Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #020617, #0f172a);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: auto;
+      color: #cbd5f5;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      border-left: 4px solid #38bdf8;
+      padding-left: 12px;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    .card ul {
+      list-style: none;
+    }
+
+    .card ul li {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #020617;
+    }
+
+    footer p {
+      margin-bottom: 10px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <header>
+    <h1>Hi, I'm Sri Saran 👋</h1>
+    <p>
+      Aspiring Software Developer skilled in Web Development, Flutter, and Java.
+      I build practical applications like helpdesk systems, chat apps, and 2D games
+      while strengthening my core programming skills.
+    </p>
+  </header>
+
+  <!-- SKILLS SECTION -->
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Languages</h3>
+        <ul>
+          <li>Java</li>
+          <li>Dart</li>
+          <li>JavaScript</li>
+          <li>Python (basic)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Frameworks & Tools</h3>
+        <ul>
+          <li>Flutter</li>
+          <li>libGDX</li>
+          <li>Git & GitHub</li>
+          <li>Firebase</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Concepts</h3>
+        <ul>
+          <li>Object-Oriented Programming</li>
+          <li>REST APIs</li>
+          <li>Authentication</li>
+          <li>Game Loops & Collision Detection</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>HelpDesk Request Management System</h3>
+        <p>
+          A web application where users submit service requests and track their
+          status (Waiting, Assigned, Resolved). Admins manage and update requests.
+        </p>
+        <ul>
+          <li>User authentication</li>
+          <li>Request submission with category & location</li>
+          <li>Status tracking dashboard</li>
+          <li>Role-based access</li>
+        </ul>
+        <p><strong>Tech:</strong> Python, Flask, HTML, CSS, Database</p>
+        <p><a href="https://github.com/marvelsaran04-eng/helpdesk-mananagement-system">GitHub Repo</a></p>
+      </div>
+
+      <div class="card">
+        <h3>Flutter Chat Application</h3>
+        <p>
+          A real-time chat application built using Flutter and Firebase.
+        </p>
+        <ul>
+          <li>User authentication</li>
+          <li>Real-time messaging</li>
+          <li>Clean and responsive UI</li>
+        </ul>
+        <p><strong>Tech:</strong> Flutter, Firebase Auth, Firestore</p>
+        <p><a href="https://github.com/marvelsaran04-eng/flutter-chat-app">GitHub Repo</a></p>
+      </div>
+
+      <div class="card">
+        <h3>2D Java Game</h3>
+        <p>
+          A 2D maze-based game developed using Java and libGDX with
+          collision detection, basic animation and sound effects.
+        </p>
+        <ul>
+          <li>Tile-based maps</li>
+          <li>Player movement & collision</li>
+          <li>Goal-based level completion</li>
+        </ul>
+        <p><strong>Tech:</strong> Java, libGDX, Tiled</p>
+        <p><a href="https://github.com/marvelsaran04-eng/java-2-D-game">GitHub Repo</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a self-driven learner passionate about software development.
+      I enjoy building real-world projects that improve my understanding
+      of core programming concepts and system design.
+    </p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <footer>
+    <p>📧 Email: marvelsaran04@gmail.com</p>
+    <p>
+      🔗 <a href="https://github.com/marvelsaran04-eng">GitHub</a> | 
+      🔗 <a href="https://www.linkedin.com/in/sri-saran-b830833a1/">LinkedIn</a> | 
+      📄 <a href="#">Resume</a>
+    </p>
+  </footer>
+
+</body>
+</html>
